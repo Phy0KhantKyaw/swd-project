@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isotope</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  
+  <div class="container">
+      <div class="row my-5 justify-content-center align-items-center">
+        <div class="col-12">
+          <div class=" btn-group">
+                <button class="btn btn-outline-primary" data-filter="*">Show All</button>
+                <button class="btn btn-outline-primary" data-filter=".roses">Roses</button>
+                <button class="btn btn-outline-primary" data-filter=".imports">Imports</button>
+                <button class="btn btn-outline-primary" data-filter=".accesserories">Accesserories</button>
+
+
+          </div>
+        </div>
+        <div class="col-10">
+            <div class="ig">
+                <div class="item">
+                    <img src="assets/86151.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img src="assets/bg.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img src="assets/g1.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img src="assets/g2.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img src="assets/g3.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img src="assets/g4.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img src="assets/My project.png" alt="">
+                </div>
+                <div class="item">
+                  <img src="assets/g4.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img src="assets/g1.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+      </div>
+  </div>
+
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+
+  <script>
+
+let  iso = new Isotope( '.ig', {
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+
+  </script>
+
+</body>
+</html>

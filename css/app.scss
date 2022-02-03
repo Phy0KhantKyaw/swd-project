@@ -1,0 +1,55 @@
+$font-family-sans-serif : 'Inconsolata', sans-serif;
+
+$primary : #f8b437;
+$info :  linear-gradient(to left top, #f8b437, #f8bc4f, #f8c365, #f8cb7a, #f8d28e);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "../node_modules/venobox/dist/venobox.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=PT+Serif+Caption&display=swap');
+
+
+.site-header{
+  z-index: 1005;
+  background-color: #ffffff9c !important;
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: hidden;
+  box-sizing: border-box;
+};
+
+
+
+.small_gall{
+  columns: 150px 3;
+}
+.small_gall img{
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.gallery{
+  columns: 150px 3;
+}
+.gallery img{
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.item{
+  width: 25%;
+}
+svg{
+  width: 100%;
+  
+}
